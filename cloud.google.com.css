@@ -1,0 +1,54 @@
+body {
+    background: #1a1a1a;
+}
+
+header.devsite-top-section,
+header .devsite-top-logo-row-wrapper {
+    background: #000;
+}
+
+header .devsite-header-upper-tabs .devsite-doc-set-nav-tab {
+    color: hsl(0, 0%, 70%);
+}
+
+header.devsite-top-section .devsite-top-logo-row .devsite-nav-tab:hover a.devsite-nav-tab,
+.devsite-doc-set-nav-tab:hover {
+    color: hsl(0, 0%, 91%);
+}
+
+.devsite-doc-set-nav-active {
+    color: hsl(0, 0%, 85%);
+}
+
+#cloud-site .card {
+    box-shadow: 0 2px 2px hsla(0, 0%, 100%, .24), 0 0 2px hsla(0, 0%, 100%, .12)
+}
+
+#cloud-site .card header {
+    background: #000;
+    border-top: 1px solid hsl(200, 0%, 25%);
+}
+
+#cloud-site .card .card-showcase h3 {
+    color: hsl(199, 13%, 56%);
+}
+
+#cloud-site .card .card-showcase p {
+    color: hsla(198, 20%, 57%, .86);
+}
+
+h1 {
+    color: hsl(0, 0%, 31%);
+}
+
+.devsite-section-nav {
+    background: hsl(0, 0%, 21%);
+}
+
+.devsite-nav-item-heading > .devsite-nav-title {
+    color: hsl(0, 0%, 58%);
+}
+
+.devsite-nav-title {
+    color: hsl(0, 0%, 49%);
+}
