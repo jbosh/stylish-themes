@@ -1,5 +1,7 @@
 /* Issues */
-
+#wrapper3 {
+    margin: 0;
+}
 div.issue {
     background: #373b41;
 }
@@ -12,11 +14,22 @@ img.gravatar {
 }
 div.flash.notice, #flash_notice {
     background: #cc6666;
+    border-color: rgb(215, 215, 215);
+    color: #FFFFFF;
 }
 div.wiki pre {
     background-color: #282a2e;
     border-color: #373b41;
 }
+
+div.wiki ul.toc {
+    background-color: #c4845a;
+}
+
+div.wiki ul.toc a {
+    color: #1a1b1e;
+}
+
 ul.tagit {
     background: #373b41;
 }
@@ -157,7 +170,7 @@ p.other-formats {
     color: #c5c8c6;
 }
 #main-menu li > a {
-    color: #b5bd68;
+    color: #dfdd72;
 }
 /* Sidebar */
 
