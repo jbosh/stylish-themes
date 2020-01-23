@@ -58,6 +58,12 @@ table tr.even.priority-lowest {
 table tr.odd.priority-lowest {
     color: #b294bb;
 }
+table.list:not(.odd-even) tbody tr:nth-child(odd) {
+    background-color: #282a2e;
+}
+table.list:not(.odd-even) tbody tr:nth-child(even) {
+    background-color: #1c1e21;
+}
 table.list tbody tr:hover {
     background-color: hsla(0, 50%, 50%, 0.6);
     color: #ffffff;
@@ -154,6 +160,9 @@ a:visited {
     background-color: #282a2e;
     border-top: none;
 }
+#top-menu {
+    background: #3E5B76;
+}
 #top-menu a {
     color: #8abeb7;
 }
@@ -165,6 +174,14 @@ p.other-formats {
     background-color: #373b41;
     color: #c5c8c6;
 }
+.theme-Classic #main-menu,
+.theme-Classic #main-menu li a {
+    background: #3E5B76;
+}
+.theme-Classic #main-menu li a.selected {
+    background: hsl(209, 31%, 62%);
+    color: hsl(59, 41%, 84%);
+}
 #main-menu li > a {
     color: #dfdd72;
 }
@@ -173,7 +190,7 @@ p.other-formats {
 #main-menu li a.selected:hover,
 #main-menu li a.new-object {
     background-color: #3d5b76;
-    color: #dfdd72;
+    color: #8abeb7;
 }
 /* Sidebar */
 #main {
@@ -259,6 +276,16 @@ ul.tagit li.tagit-new input {
     background: inherit;
 }
 
+/* Projects */
+.projects.root li {
+ background-color: #373b41;   
+}
+
+#projects-index {
+    max-width: 700px;
+    column-count: 1;
+}
+
 /* Settings */
 #content .tabs ul li {
     background: #282a2e;
@@ -316,4 +343,18 @@ div#activity dt .time {
 div#activity dd span.description,
 #search-results dd span.description {
     color: #e0e0e0;
+}
+.syntaxhl,
+.syntaxhl .s,
+.syntaxhl .s1,
+.syntaxhl .s2 {
+    background: inherit;
+}
+
+.syntaxhl .o {
+    color: hsl(0, 0%, 51%);
+}
+
+.syntaxhl .mi {
+    color: hsl(215, 100%, 76%);
 }
