@@ -4574,6 +4574,10 @@ td.selected-line.blob-code {
 .highlight:not(.lines) tr:not(.inline-comments):hover td.blob-code-deletion:not(.line-age) {
     background: #481010 !important;
 }
+.blob-code-inner.highlighted,
+.blob-code-inner .highlighted {
+    background-color: #3d005c;
+}
 /* custom hover highlight end */
 .prose-diff > .markdown-body th.changed,
 .prose-diff > .markdown-body td.changed {
