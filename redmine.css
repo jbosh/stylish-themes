@@ -237,6 +237,10 @@ table.cal {
 .wiki.wiki-page {
     color: #e0e0e0;
 }
+.wiki-preview {
+    background: #282a2e;
+    color: #e0e0e0;
+}
 /* Editing */
 .box {
     background: #373b41;
@@ -278,7 +282,7 @@ ul.tagit li.tagit-new input {
 
 /* Projects */
 .projects.root li {
- background-color: #373b41;   
+    background-color: #373b41;
 }
 
 #projects-index {
