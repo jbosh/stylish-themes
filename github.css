@@ -8,6 +8,16 @@ body {
     background-position: left top !important;
 }
 
+main > div {
+    background-color: #141518 !important;
+}
+
+@media (min-width: 768px) {
+    .page-responsive .pagehead {
+        background-color: #25282d !important;
+    }
+}
+
 /* custom code font */
 pre,
 code,
@@ -3996,7 +4006,7 @@ a.text-red,
     border-color: #542 !important;
 }
 /* yellow text */
-/* .bg-pending might be a GitHub bug as it sets the fg */
+/* .bg-pending might be a GitHub bug as it sets the fg */
 .text-pending,
 a.text-pending,
 .text-renamed,
