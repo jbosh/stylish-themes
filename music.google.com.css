@@ -170,6 +170,15 @@ sj-home h2 span.home-palette-id-1.tooltip {
 .sj-home-0 #backgroundColor.sj-home {
     background: #111 !important;
 }
+sj-home[selected="0"] .home-palette-id-1,
+sj-card[card-size="mini"] #details.sj-card > [slot="title"],
+sj-card[card-size="mini"] #details.sj-card > [slot="subtitle"],
+gpm-detail-page-header div.gpm-detail-page-header > [slot="subtitle"],
+gpm-detail-page-header div.gpm-detail-page-header > [slot="description"],
+gpm-detail-page-header div.gpm-detail-page-header > [slot="metadata"],
+gpm-detail-page-header div.gpm-detail-page-header > [slot="buttons"] {
+    color: white !important;
+}
 sj-home #backgroundColor.sj-home {
     background: #111 !important;
 }
@@ -294,7 +303,8 @@ gpm-action-buttons {
     border-top: 1px solid #333;
     color: rgba(255, 255, 255, .7);
 }
-.song-table th iron-icon {
+.song-table th iron-icon,
+gpm-headline-header h2.gpm-headline-header > iron-icon {
     color: rgba(255, 255, 255, .7);
 }
 .rating-container.thumbs li {
@@ -358,6 +368,9 @@ gpm-action-buttons {
 }
 h2.section-header {
     color: #fff;
+}
+gpm-detail-page-header div.gpm-detail-page-header > [slot="title"] {
+    color: white !important;
 }
 .gpm-detail-page-header-0[description-overflows] #descriptionWrapper.gpm-detail-page-header:hover {
     background: #333;
