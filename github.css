@@ -1143,6 +1143,9 @@ body .border-gray-dark,
 .Counter {
     border-color: #484848 !important;
 }
+.gh-header {
+    background: #34373c;
+}
 pre,
 h1,
 h2,
