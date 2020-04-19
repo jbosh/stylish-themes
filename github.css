@@ -1146,6 +1146,9 @@ body .border-gray-dark,
 .gh-header {
     background: #34373c;
 }
+.gh-header .gh-header-sticky.is-stuck+.gh-header-shadow {
+    background: #484848;
+}
 pre,
 h1,
 h2,
