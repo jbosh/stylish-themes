@@ -196,6 +196,9 @@ p.other-formats {
 #main {
     background-color: #282a2e;
 }
+#sidebar {
+    background-color: #373b41;
+}
 #sidebar h3 {
     color: #e0e0e0;
 }
