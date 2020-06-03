@@ -280,6 +280,9 @@ sj-home[selected="10"] .home-palette-id-2,
 tr.song-row a {
     color: rgba(255, 255, 255, .7);
 }
+.song-table {
+    background: #212121
+}
 .song-table th {
     color: rgba(255, 255, 255, .5);
 }
