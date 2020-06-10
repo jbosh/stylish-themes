@@ -12,6 +12,10 @@ html {
     background: #1b1b1b!important;
     border-color: #333!important;
 }
+.cUezCb {
+    background: hsl(0, 0%, 18%)!important;
+}
+
 /* Buttons */
 .jhp input[type="submit"],
 .sbdd_a input,
