@@ -370,6 +370,9 @@ textarea {
     border-color: #343434 !important;
     color: #eee !important;
 }
+.header-search-current .header-search-input {
+    color: inherit !important;
+}
 /* custom checkbox and radio styles. We need a full set of styles here as
      WebKit removes all of them when -webkit-appearance: none is set. */
 input[type="checkbox"],
