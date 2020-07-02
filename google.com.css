@@ -108,7 +108,8 @@ html {
 .sbl1 {
     color: #adadad!important;
 }
-.minidiv .sfbg {
+.minidiv .sfbg,
+.sfbg {
     background: #252525!important;
 }
 .sbsb_d,
