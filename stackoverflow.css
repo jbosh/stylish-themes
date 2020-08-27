@@ -81,8 +81,14 @@ a.bounty-link,
     color: #FFF;
 }
 
-code {
+code,
+.s-prose pre:not(.s-code-block) {
     background-color: #1E1E1E;
+}
+
+.s-prose code:not(.s-code-block) {
+    background-color: #1E1E1E;
+    color: #FFF;
 }
 
 .prettyprint {
