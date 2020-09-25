@@ -82,7 +82,8 @@ a.bounty-link,
 }
 
 code,
-.s-prose pre:not(.s-code-block) {
+.s-prose pre:not(.s-code-block),
+pre.s-code-block {
     background-color: #1E1E1E;
 }
 
