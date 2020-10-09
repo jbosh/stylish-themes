@@ -12,10 +12,15 @@ html {
     background: #1b1b1b!important;
     border-color: #333!important;
 }
-.cUezCb, .jZWadf {
+.cUezCb, .jZWadf, .Lj9fsd {
     background: hsl(0, 0%, 18%)!important;
 }
 .jZWadf, .cEPPT {
+    border-color: hsl(0, 0%, 18%)!important;
+}
+
+.F9PbJd {
+    background: #1b1b1b;
     border-color: hsl(0, 0%, 18%)!important;
 }
 
